@@ -1,0 +1,45 @@
+body {
+    background-color: #ffffff;
+}
+
+.logo-img img {
+    height: 50px;
+    width: auto;
+}
+
+.header-bg {
+    background-color: #fff9f4;
+}
+
+.fecilitis-item {
+    height: 135px;
+}
+
+.btn-primary {
+    background-image: radial-gradient(#3c4deb, #3d4ff3);
+}
+
+.price-color {
+    color: #fa804c;
+}
+
+.card {
+    transition: .4s ease-in-out;
+}
+
+.card:hover {
+    transform: translate(20px, -30px);
+    z-index: 100;
+}
+
+@media (max-width:470px) {
+    .logo-img img {
+        height: 30px;
+        width: auto;
+    }
+
+    .slider-text {
+        padding: 1rem !important;
+        font-size: 16px;
+    }
+}
