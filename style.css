@@ -17,6 +17,13 @@ body {
 
 .btn-primary {
     background-image: radial-gradient(#3c4deb, #3d4ff3);
+    animation: scal .6s ease-in 1s infinite alternate both;
+}
+
+@keyframes scal {
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .price-color {
